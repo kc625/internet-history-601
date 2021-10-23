@@ -2,40 +2,99 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About</title>
+    <title>Index</title>
     <meta name="description" content="This is an example of a meta description.
     This will often show up in search results.">
 
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        #primaryLinks {
+            height: 100px;
+            margin: 0;
+            line-height: 100px;
+            width: 900px;
+            text-align: right;
+            padding: 0;
+        }
+        #primaryLinks li {
+            display: inline;
+        }
+        #primaryLinks menu {
+            padding-top: 0;
+            padding-left: 0;
+        }
+        #logo {
+        }
+        #logo img {
+            width: 100px;
+        }
+        #primaryContent {
+            width: 900px;
+            text-align: left;
+        }
+        #wrapper {
+            width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #footer {
+            text-align: center;
+            height: 15px;
+            line-height: 15px;
+        }
+        #mainImage {
+            text-align: center;
+        }
+        .clearFix {
+            clear: both;
+        }
+        .floatLeft {
+            float: left;
+        }
+    </style>
 
 </head>
 <body>
-<menu>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-</menu>
-<article>
-    <h1>About Page</h1>
-    <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt ipsum felis, sit amet lacinia dolor imperdiet nec. Fusce in ullamcorper ex. Vestibulum tellus justo, tempor ac massa vel, vulputate malesuada tortor. Etiam arcu purus, dictum a justo tempor, tincidunt malesuada erat. Etiam commodo aliquam posuere. Pellentesque ac arcu id velit eleifend malesuada ac sed risus. Suspendisse vitae purus sodales, tincidunt justo vel, aliquet turpis. Nullam felis neque, aliquam non enim vitae, euismod lacinia neque.
-    </p>
-    <p>
-    Phasellus tortor felis, consequat sit amet vulputate nec, imperdiet sit amet purus. Vivamus luctus orci turpis. Curabitur eget posuere dui. Morbi nisi nulla, tempor in sodales a, vestibulum lacinia eros. Nunc dui turpis, commodo vitae eros nec, congue lobortis nunc. Mauris odio sem, ultricies quis eleifend sed, convallis in nulla. Cras non purus eget augue facilisis gravida.
-    </p>
-    <p>
-    In quis mattis felis. Ut lacus ex, hendrerit in pharetra in, vehicula eget purus. Donec vitae erat facilisis, vehicula risus et, interdum dolor. Nulla dictum pharetra mauris, at sagittis justo consectetur sit amet. Nulla quis accumsan metus. Maecenas ornare, purus ut blandit ullamcorper, nulla erat finibus magna, quis rutrum massa ipsum sit amet massa. Nam malesuada elit vitae libero iaculis blandit. Suspendisse potenti. Etiam ac ipsum eros. Mauris ut hendrerit neque, nec rhoncus lectus. Donec quis mauris semper, venenatis justo in, sagittis elit. Nullam finibus ultrices mi vitae tempus.
-    </p>
+<div id="wrapper">
+    <div id="logo" class="floatLeft">
+        <img src="images/fediverse_logo_proposal.svg" alt="This is a logo"/>
+    </div>
+    <menu id="primaryLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+    </menu>
+    <hr>
+    <div id="mainImage">
+        <img src="images/internet.jpg" alt="This is the main image"/>
+    </div>
+    <hr>
+    <article id="primaryContent" class="clearFix">
+        <h1>Index Page</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt ipsum felis, sit amet lacinia dolor imperdiet nec. Fusce in ullamcorper ex. Vestibulum tellus justo, tempor ac massa vel, vulputate malesuada tortor. Etiam arcu purus, dictum a justo tempor, tincidunt malesuada erat. Etiam commodo aliquam posuere. Pellentesque ac arcu id velit eleifend malesuada ac sed risus. Suspendisse vitae purus sodales, tincidunt justo vel, aliquet turpis. Nullam felis neque, aliquam non enim vitae, euismod lacinia neque.
+        </p>
+        <p>
+            Phasellus tortor felis, consequat sit amet vulputate nec, imperdiet sit amet purus. Vivamus luctus orci turpis. Curabitur eget posuere dui. Morbi nisi nulla, tempor in sodales a, vestibulum lacinia eros. Nunc dui turpis, commodo vitae eros nec, congue lobortis nunc. Mauris odio sem, ultricies quis eleifend sed, convallis in nulla. Cras non purus eget augue facilisis gravida.
+        </p>
+        <hr>
+        <p>
+            In quis mattis felis. Ut lacus ex, hendrerit in pharetra in, vehicula eget purus. Donec vitae erat facilisis, vehicula risus et, interdum dolor. Nulla dictum pharetra mauris, at sagittis justo consectetur sit amet. Nulla quis accumsan metus. Maecenas ornare, purus ut blandit ullamcorper, nulla erat finibus magna, quis rutrum massa ipsum sit amet massa. Nam malesuada elit vitae libero iaculis blandit. Suspendisse potenti. Etiam ac ipsum eros. Mauris ut hendrerit neque, nec rhoncus lectus. Donec quis mauris semper, venenatis justo in, sagittis elit. Nullam finibus ultrices mi vitae tempus.
+        </p>
         <ul>
             <li>List Item 1</li>
             <li>List Item 2</li>
             <li>List Item 3</li>
         </ul>
-    <p>
-    Pellentesque et tortor neque. Donec molestie sollicitudin pulvinar. Duis tempor libero eu nisl euismod sodales. Donec cursus et turpis sollicitudin consequat. Phasellus porta sed felis ac mollis. Ut rutrum sodales libero, et mollis turpis hendrerit vel. Phasellus varius sapien nisl, at tincidunt ante maximus id. Nulla porta felis sed commodo suscipit.
-    </p>
-    <p>
-    Nam condimentum venenatis mauris eu egestas. Donec ac dui lobortis, condimentum libero id, vestibulum metus. Maecenas scelerisque, lectus in iaculis congue, mi ligula dictum odio, sit amet pulvinar risus magna sit amet metus. Nulla rutrum, orci non lobortis fermentum, tellus libero suscipit odio, a aliquam metus turpis vitae sem. Aliquam molestie, orci ut rhoncus posuere, libero nisi commodo lectus, non consectetur est erat eu odio. Donec porttitor mollis purus, quis posuere urna iaculis et. Praesent varius odio eu dictum feugiat. Donec ante risus, luctus ac tortor a, mattis facilisis magna. Ut ornare neque ligula, et sagittis est tristique nec. Curabitur ut lectus ultricies, dapibus urna id, cursus augue. Ut ut rutrum dui. Vivamus non finibus massa. Cras sit amet tellus in elit tempus commodo. Donec viverra eros et lacus iaculis, vitae auctor sapien fermentum.
-    </p>
-</article>
+        <p>
+            Pellentesque et tortor neque. Donec molestie sollicitudin pulvinar. Duis tempor libero eu nisl euismod sodales. Donec cursus et turpis sollicitudin consequat. Phasellus porta sed felis ac mollis. Ut rutrum sodales libero, et mollis turpis hendrerit vel. Phasellus varius sapien nisl, at tincidunt ante maximus id. Nulla porta felis sed commodo suscipit.
+        </p>
+        <p>
+            Nam condimentum venenatis mauris eu egestas. Donec ac dui lobortis, condimentum libero id, vestibulum metus. Maecenas scelerisque, lectus in iaculis congue, mi ligula dictum odio, sit amet pulvinar risus magna sit amet metus. Nulla rutrum, orci non lobortis fermentum, tellus libero suscipit odio, a aliquam metus turpis vitae sem. Aliquam molestie, orci ut rhoncus posuere, libero nisi commodo lectus, non consectetur est erat eu odio. Donec porttitor mollis purus, quis posuere urna iaculis et. Praesent varius odio eu dictum feugiat. Donec ante risus, luctus ac tortor a, mattis facilisis magna. Ut ornare neque ligula, et sagittis est tristique nec. Curabitur ut lectus ultricies, dapibus urna id, cursus augue. Ut ut rutrum dui. Vivamus non finibus massa. Cras sit amet tellus in elit tempus commodo. Donec viverra eros et lacus iaculis, vitae auctor sapien fermentum.
+        </p>
+    </article>
+    <footer id="footer" class="clearFix">
+        "File:Fediverse logo proposal.svg" by Eukombos is marked under CC0 1.0. To view the terms, visit http://creativecommons.org/publicdomain/zero/1.0/deed.en "INTERNET" by lecasio is licensed with CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/
+    </footer>
+</div>
 </body>
 </html>
