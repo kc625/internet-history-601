@@ -12,18 +12,45 @@
             background-color: antiquewhite;
             height: 100px;
             border: 1px solid black;
-            padding-top: 40px;
-            margin-bottom: 100px;
+            margin: 0;
+            line-height: 100px;
+            width: 1200px;
+            text-align: right;
+        }
+        #primaryLinks li {
+            display: inline;
+        }
+        #primaryLinks menu {
+            padding-top: 0;
+            padding-left: 0;
+        }
+        #logo {
+            float: left;
+        }
+        #logo img {
+            width: 100px;
+        }
+        #primaryContent {
+            clear: both;
+        }
+        #wrapper {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 
 </head>
 <body>
+<div id="wrapper">
+<div id="logo">
+    <img src="images/fediverse_logo_proposal.svg" alt="This is a logo"/>
+</div>
 <menu id="primaryLinks">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
 </menu>
-<article>
+<article id="primaryContent">
     <h1>Index Page</h1>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt ipsum felis, sit amet lacinia dolor imperdiet nec. Fusce in ullamcorper ex. Vestibulum tellus justo, tempor ac massa vel, vulputate malesuada tortor. Etiam arcu purus, dictum a justo tempor, tincidunt malesuada erat. Etiam commodo aliquam posuere. Pellentesque ac arcu id velit eleifend malesuada ac sed risus. Suspendisse vitae purus sodales, tincidunt justo vel, aliquet turpis. Nullam felis neque, aliquam non enim vitae, euismod lacinia neque.
@@ -46,5 +73,6 @@
         Nam condimentum venenatis mauris eu egestas. Donec ac dui lobortis, condimentum libero id, vestibulum metus. Maecenas scelerisque, lectus in iaculis congue, mi ligula dictum odio, sit amet pulvinar risus magna sit amet metus. Nulla rutrum, orci non lobortis fermentum, tellus libero suscipit odio, a aliquam metus turpis vitae sem. Aliquam molestie, orci ut rhoncus posuere, libero nisi commodo lectus, non consectetur est erat eu odio. Donec porttitor mollis purus, quis posuere urna iaculis et. Praesent varius odio eu dictum feugiat. Donec ante risus, luctus ac tortor a, mattis facilisis magna. Ut ornare neque ligula, et sagittis est tristique nec. Curabitur ut lectus ultricies, dapibus urna id, cursus augue. Ut ut rutrum dui. Vivamus non finibus massa. Cras sit amet tellus in elit tempus commodo. Donec viverra eros et lacus iaculis, vitae auctor sapien fermentum.
     </p>
 </article>
+</div>
 </body>
 </html>
